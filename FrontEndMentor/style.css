@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+
+/*Estilos a todo el HTML*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Inico estilos body, 
+se aplican al body del html*/
+body{
+    background-image: URL(./images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    color: white;
+    text-align: center; 
+    min-height: 100%;
+
+    
+}
+
+/*final estilos body*/
+
+.header{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 3em;
+}
+
+.iconH{
+    padding-top: 9px;
+}
+
+.tittle{
+    font-family: 'Kanit', sans-serif;
+}
+
+.sectionP{
+    display: flex;
+    position: relative;
+    padding: 1rem;
+}
+
+.section1{
+    height: 500px;
+    margin-left: 2rem;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.Block{
+    font-family: system-ui;
+    font-size: x-large;
+    text-align: left;
+}
+
+.Block1{
+    margin: 2rem;
+    font-family: system-ui;
+    text-align: left;
+}
+
+.boton{
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    width: 10rem;
+    height: 2.5rem;
+    color: hsl(257, 40%, 49%);
+    font-family: system-ui;
+    font-size: medium;
+    font-weight: 600;
+    box-shadow: 4px 4px 15px -3px rgb(0 0 0 / 90%);
+    float: left;
+    margin-left: 2.1rem;
+}
+
+.footer{  
+    margin-right: 4rem;
+    display: flex;
+    justify-content: right;    
+}
+
+.footerB{
+    padding: 1em;
+}
